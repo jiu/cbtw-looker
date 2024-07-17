@@ -1,0 +1,25 @@
+{
+    "name": "Community Visualization",
+    "logoUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
+    "organization": "Looker Studio Codelab",
+    "organizationUrl": "https://url",
+    "termsOfServiceUrl": "https://url",
+    "supportUrl": "https://url",
+    "packageUrl": "https://url",
+    "privacyPolicyUrl": "https://url",
+    "description": "Community Visualization Codelab",
+    "devMode": true,
+    "components": [
+        {
+            "id": "tableChart",
+            "name": "Table",
+            "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
+            "description": "A simple table chart.",
+            "resource": {
+                "js": "gs://MY_GOOGLE_CLOUD_STORAGE_BUCKET/viz-codelab.js",
+                "config": "gs://MY_GOOGLE_CLOUD_STORAGE_BUCKET/viz-codelab.json",
+                "css": "gs://MY_GOOGLE_CLOUD_STORAGE_BUCKET/viz-codelab.css"
+            }
+        }
+    ]
+}
