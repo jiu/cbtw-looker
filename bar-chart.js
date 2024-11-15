@@ -29,7 +29,7 @@ const visObject = {
    * data is passed to it.
    **/
   create: function (element, config) {
-    element.innerHTML = "<h1>Ready to render!</h1>";
+    element.innerHTML = "<h1>Loading data...</h1>";
   },
 
   /**

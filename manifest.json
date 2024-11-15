@@ -11,14 +11,14 @@
     "devMode": true,
     "components": [
         {
-            "id": "tableChart",
-            "name": "Table",
+            "id": "cbtwBarChart",
+            "name": "CBTW Bar chart",
             "iconUrl": "https://raw.githubusercontent.com/googledatastudio/community-visualizations/master/docs/codelab/img/table-chart.png",
-            "description": "A simple table chart.",
+            "description": "A rounded bar chart.",
             "resource": {
-                "js": "https://github.com/jiu/cbtw-looker/blob/main/viz-codelab.js",
-                "config": "https://github.com/jiu/cbtw-looker/blob/main/viz-codelab.json",
-                "css": "https://github.com/jiu/cbtw-looker/blob/main/viz-codelab.css"
+                "js": "gs://cbtw-bar-graph/viz-codelab.js",
+                "config": "gs://cbtw-bar-graph/viz-codelab.json",
+                "css": "gs://cbtw-bar-graph/viz-codelab.css"
             }
         }
     ]
